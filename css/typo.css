@@ -1,30 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,400;1,300;1,400&display=swap');
+@font-face {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+}
 
+
+@font-face {
+  font-family: "VT323";
+}
 body {
-  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 1.65;
   text-decoration: none;
+  background-color: white;
 
 }
 
 p {margin-bottom: 1.15rem;}
 
-h1, h2, h3, h4, h5 {
-  margin: 2.75rem 0 1.05rem;
-  font-family: 'Anton', sans-serif;
-  font-weight: 400;
-  line-height: 1.15;
+
 }
 
 h1 {
   margin-top: 0;
-  font-size: 7.594em;
+  font-size: 5em;
 }
 
-h2 {font-size: 5.063em;}
+h2 {font-size: 2em;}
 
-h3 {font-size: 3.375em;}
+h3 {font-size: 2.5em;}
 
 h4 {font-size: 2.25em;}
 
@@ -34,12 +37,24 @@ small, .text_small {font-size: 0.667em;}
 
 
 header a{
+  font-family: "VT323";
+  font-style: normal;
+  font-weight: bold;
   font-size: 20px;
   text-decoration: none;
-  color: white;
+  background-color: white;
+  color: black;
 
 }
 
-footer{
- color: white;
+p{
+  font-family: "VT323";
+  font-size: 50px;
+}
+
+footer a{
+  font-family: "PlayfairDisplay-BlackItalic";
+  text-decoration: none;
+  color: white;
+
 }

@@ -1,43 +1,151 @@
+
+body {
+color:black;
+background-color:black;
+}
+
 header{
-  border: solid red;
   flex: block;
   justify-content: space-between;
   background-color: black;
   text-align: center;
-
-  z-index: 999;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
+li {
+  position: flex;
+  display: inline-block;
+  padding: 0 10vh;
+  justify-content: center;
 }
 
-body {
-color:black;
-background-color:white;
-background-image:url(images/dj_snake.jpg);
+a{
+  text-decoration: none;
 }
 
+ .main-menu{
+   padding: 30px;
+   display: grid;
+   justify-content: center;
+   max-width: 100%;
+   background-color: white;
+   color: black;
+ }
 
-footer{
+ .main-contain{
+   padding: 10vh;
+   max-width: 100%;
+   background-color: black;
+   color: black;
+   margin-left: 0;
+   background-color: black;
+ }
+
+.fond-noir{
   background-color: black;
+  color: white;
+  padding: 5vh;
 }
 
-nav {
-  border: solid blue;
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  left: 0;
+.identite{
+  background-color: yellow;
+  max-width: 100%;
+}
+
+.identite img{
+  display: block;
+  object-fit: cover;
+
+  }
 
 
+.illustration{
+  background-color: blue;
+  max-width: 100%;
+  padding: 10vh;
+}
+
+.photographie{
+  background-color: pink;
+  max-width: 100%;
+  padding: 10vh;
 
 }
 
-li{
+.video{
+  background-color: green;
+  max-width: 100%;
+  padding: 10vh;
+}
+
+ footer{
+   background-color: black;
+   min-height: 15vh;
+   padding: 30px;
+   display: grid;
+   justify-content: center;
+   max-width: 100%;
+   min-height: 15vh;
+   color: white;
+   text-decoration: none;
+ }
+
+/* images */
+
+.image-content{
+  max-width: 100%;
+  height: auto;
   position: relative;
-  display: inline-block;
-  padding: 0 15px;
-  left: 0;
+}
+
+ p{
+   font-family: "VT323"
+ }
+
+/* liste autres pages */
+
+
+.main{
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  background: pink;
+
+}
+
+
+.list ul li{
+width: 30%;
+text-align: center;
+padding: 100px;
+margin: 20px 20px 20px;
+display: inline-flex;
+vertical-align: top;
+background-color: white;
+}
+
+
+.identite p:hover{
+  display: block;
+  box-shadow: 30px 55px rgba(255,25,255,1);
+  transition: all 0.5s linear;
+}
+
+
+.illustration p:hover{
+  opacity: 30;
+  transition: all 0.5s linear;
+}
+
+
+.photographie p:hover{
+  opacity: 30;
+  box-shadow: 27px 55px 51px 66px rgba(255,25,255,1);
+  transition: all 0.5s linear;
+}
+
+.video p:hover{
+  opacity: 30;
+  box-shadow: 27px 55px 51px 66px rgba(255,25,255,1);
+  transition: all 0.5s linear;
 }
